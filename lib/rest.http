@@ -1,0 +1,32 @@
+
+GET http://localhost:8080/api/products
+
+
+###
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{"email":"Hrus","password":""}
+
+
+###
+POST https://furnitur-1v.herokuapp.com/api/login
+Content-Type: application/json
+
+{"email":"Hrushi@gmail.com","password":"HRushi"}
+
+###
+
+POST https://furnitur-1v.herokuapp.com/api/cart
+Content-Type: application/json
+authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDEwYzAzZiIsImlhdCI6MTU5NDU0NTU5Nn0.GTf4qSja6WcPIZloqmPCfu2ME1rWb93uqjsZizZGUOU"
+
+{"productId": "fadeb7c2"}
+
+
+
+
+
+###
+
+GET https://furnitur-1v.herokuapp.com/api/products
